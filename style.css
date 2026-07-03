@@ -1,0 +1,68 @@
+h1 {
+background-color: rgb(244, 222, 235);
+padding: 10px;
+color: rgb(255, 162, 216);
+text-align: center;
+font-family: "Constantia", verdana;
+font-size: 40px
+}
+
+h2 {
+  display: inline-block;
+  background-color: rgb(244, 222, 235);
+  border: 2px solid rgb(194, 108, 161);
+  padding: 8px 20px 8px 20px;
+  color: rgb(255, 162, 216);
+  font-family: "Constantia", verdana;
+  font-size: 35px;
+}
+
+.center {
+  text-align: center;
+}
+
+.normal {
+  font-family: "MS UI Gothic", verdana;
+  color: rgb(215, 106, 234);
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container div {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(126, 0, 82);
+  text-decoration: none;
+  font-family: "MS UI Gothic", verdana;
+  font-style: italic;
+}
+
+a:visited {
+  color: rgb(193, 0, 177);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(209, 92, 199);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 81, 229);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+hr {
+  background-color:rgb(223, 116, 212);
+  height: 2.5px;
+}
